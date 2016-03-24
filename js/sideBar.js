@@ -15,7 +15,7 @@
         console.log(this)
     };
     Sidebar.prototype.close = function(){
-        //console.log('关闭');
+        console.log('关闭');
         this.el.className = 'sidebar-move-left';
         this.closeBarE1.className = 'closeBar-move-right';
         this.state = 'closed';
